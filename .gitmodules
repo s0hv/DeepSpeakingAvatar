@@ -1,0 +1,12 @@
+[submodule "face_detection"]
+	path = face_detection
+	url = https://github.com/viljamirom/face_detection
+[submodule "speech-to-text-translation"]
+	path = speech-to-text-translation
+	url = https://github.com/Norskiii/speech-to-text-translation
+[submodule "deep-speaking-avatar-text-to-audio"]
+	path = deep-speaking-avatar-text-to-audio
+	url = https://github.com/vilukissa68/deep-speaking-avatar-text-to-audio
+[submodule "chatbot"]
+	path = chatbot
+	url = https://github.com/s0hv/chatbot
