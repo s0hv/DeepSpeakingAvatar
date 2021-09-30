@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
-git submodule init --recursive
+git submodule init
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+touch "$DIR/integration/text-in.txt"
+touch "$DIR/integration/text-out.txt"
 
 echo "Setting up text2text"
 cd chatbot
