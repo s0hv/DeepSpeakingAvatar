@@ -2,4 +2,4 @@
 
 cd deep-speaking-avatar-text-to-audio
 source venv/bin/activate
-python src/main.py -w ../integratio/speech-output.wav -r ../integration/text-out.txt
+python src/main.py -w ../integratio/speech-output.wav -r ../integration/text-out.txt -f ../AvatarFace/LipSync/lip.txt
