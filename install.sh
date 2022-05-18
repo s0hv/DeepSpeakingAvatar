@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-git submodule init
+git submodule update --init
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
